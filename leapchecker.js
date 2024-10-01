@@ -18,7 +18,7 @@ Loop between 2000 and 3000, and use a control flow statement to only display num
  */
 
 for (let num=2000;num>=2000 && num<=3000;num++){
-    if (num%4==0 && num%100==0){
+    if (num%4==0 && num%100!=0){
         console.log(num);
     } else if (num%400==0){
         console.log(num);
